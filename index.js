@@ -23,7 +23,7 @@ slides[slidePosition].classList.add("carousel-item-visible")
 }
 
 function moveToPrevSlide() {
-    
+    console.log("prev slide")
 }
 
 
