@@ -10,8 +10,7 @@
 }
 
 .carousel .carousel-item-visible {
-    display: flex;
-    justify-content: center;
+    display: block;
 }
 
 .carousel .carousel-item img {
