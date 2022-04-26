@@ -1,27 +1,16 @@
-/* img {
-    max-height: 100vh;
-    /* onto something here */
-} */
-
 .carousel {
     max-width: 600px;
     position: relative;
-    /* because we want buttons vertically centered
-    within the container of carousel */
 }
 
 .carousel .carousel-item {
     display: none;
-    /* make all divs inside carousel invisible */
     background-color: black;
-    /* added myself */
 }
 
 .carousel .carousel-item-visible {
     display: flex;
     justify-content: center;
-    /* instead of display block, 
-    good idea with black background of div above */
 }
 
 .carousel .carousel-item img {
@@ -30,7 +19,6 @@
     height: auto;
     display: flex;
     justify-content: center;
-    /* the three above make the images responsive */
 }
 
 .carousel .carousel-actions {
@@ -39,10 +27,7 @@
     justify-content: space-between;
     position: absolute;
     top: 50%;
-    /* doesnt take into consideratin height of buttons */
     transform: translateY(-50%);
-    /* moves it up a bit as it takes the button height into 
-    consideration re top 50%, so use together */
 }
 
 .carousel .carousel-actions button {
@@ -54,14 +39,11 @@
     cursor: pointer;
     width: 40px;
     height: 40px;  
-    /* common design on website, just increased font-size */
 }
 
 .carousel .carousel-actions button#carousel-button-prev {
     margin-left: 20px;
-    /* do it individually to avoid unnecessary margins like 0 20px */
 }
 .carousel .carousel-actions button#carousel-button-next {
     margin-right: 40px;
-    /* ?? */
 }
